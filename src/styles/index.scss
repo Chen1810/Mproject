@@ -1,0 +1,14 @@
+//@import "functions";
+@import "mixins";
+
+/*定义变量*/
+
+/*变量拼接*/
+
+/*定义数组*/
+
+/*定义map集合*/
+.box{
+    width: 100px;
+	@include opacity(80);
+}

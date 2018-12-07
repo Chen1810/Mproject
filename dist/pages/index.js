@@ -11,7 +11,6 @@ require(["../scripts/config.js"], function(){
 		// randomColor();
 		
 		console.log("index ok");
-		console.log("ssssss")
 		
 	})
 })

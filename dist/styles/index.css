@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/*定义变量*/
+/*变量拼接*/
+/*定义数组*/
+/*定义map集合*/
+.box {
+  width: 100px;
+  opacity: 0.8;
+  filter: alpha(opacity=80); }
