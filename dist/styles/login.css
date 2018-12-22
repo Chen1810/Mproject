@@ -1,0 +1,164 @@
+body {
+  background: #eee; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+input {
+  outline: none; }
+
+main {
+  width: 1200px;
+  height: 858px;
+  margin: 100px auto 0;
+  box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.15);
+  background-color: white; }
+
+main #main-l {
+  float: left; }
+
+main #main-l .swiper-container {
+  width: 600px;
+  height: 858px; }
+
+main #main-l .swiper-container img {
+  width: 100%;
+  height: 100%; }
+
+main #main-r {
+  float: right;
+  width: 600px;
+  height: 858px;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+
+main #main-r .login {
+  width: 300px;
+  margin: auto; }
+
+main #main-r .login h3 {
+  font-size: 30px;
+  color: #3b3e40;
+  font-weight: 500;
+  line-height: 1.5; }
+
+main #main-r .message {
+  width: 300px;
+  margin: 0 auto; }
+
+main #main-r .message p {
+  width: 300px;
+  height: 44px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.54); }
+
+main #main-r .message p input {
+  width: 288px;
+  height: 42px;
+  padding-left: 10px;
+  border: 0; }
+
+main #main-r .message p i {
+  display: block;
+  height: 14px;
+  text-align: left;
+  margin-top: 3px;
+  padding-left: 10px;
+  color: red;
+  display: none; }
+
+main #main-r .message p:nth-child(2) #pass {
+  float: left;
+  width: 200px; }
+
+main #main-r .message p:nth-child(2) a {
+  margin-right: 10px;
+  line-height: 44px;
+  color: rgba(0, 0, 0, 0.54); }
+
+main #main-r .message p:nth-child(2) a:hover {
+  color: #007AFF; }
+
+main #main-r .message p:nth-child(3) {
+  border: none;
+  cursor: pointer; }
+
+main #main-r .message p:nth-child(4) {
+  background: #44a8f2; }
+
+main #main-r .message p:nth-child(4) #sub {
+  color: white;
+  cursor: pointer;
+  background: none; }
+
+main #main-r .message p:nth-child(5) {
+  border: none;
+  cursor: pointer; }
+
+main #main-r .message p:nth-child(5) a {
+  color: #44a8f2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px; }
+
+main #main-r .message p:nth-child(6) {
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  color: #707473;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; }
+
+main #main-r .message p:nth-child(6) span {
+  display: inline-block;
+  width: 50px;
+  height: 1px;
+  background: #EEE;
+  line-height: 44px; }
+
+main #main-r .message p:nth-child(7) {
+  background: #47b247;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; }
+
+main #main-r .message p:nth-child(7) a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px; }
+
+main #main-r .message p:nth-child(7) a img {
+  display: inline-block;
+  width: 18px;
+  height: 16px;
+  margin-right: 5px; }
+
+footer {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center; }
+
+footer p {
+  height: 24px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #979797;
+  line-height: 2; }
+
+footer p a {
+  color: #979797; }
+
+footer p a:hover {
+  color: #007AFF; }

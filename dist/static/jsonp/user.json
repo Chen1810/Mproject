@@ -1,0 +1,1246 @@
+[
+	{
+		"slug": "mavic",
+		"product_title": "\"御\" Mavic",
+		"variant_title": "DJI Care 随心换（Mavic Pro）",
+		"ean": "https://product4.djicdn.com/uploads/sku/covers/31314/small_55e19eff-2d6a-4d75-8e63-b9b5822fd298.png",
+		"price_cents": 59900,
+		"original_price_cents": 59900,
+		"on_sale": "商城热卖",
+		"shipping_day": "https://product2.djicdn.com/uploads/photos/35446/large_5ff80792-f403-4834-bf05-ac3e8b89be9b.jpg"
+	},
+	{
+		"slug": "spark",
+		"product_title": "\"晓\" Spark",
+		"variant_title": "CinemaDNG and Apple ProRes 使用授权",
+		"ean": "https://product2.djicdn.com/uploads/bundle/covers/31321/small_4db147ca-8a81-4dcb-a84e-0ef2bc52c0cc.png",
+		"price_cents": 850000,
+		"original_price_cents": 850000,
+		"on_sale": "商城项目",
+		"shipping_day": "https://product2.djicdn.com/uploads/photos/35445/large_258e3965-b6d4-4598-a7bc-ee4733c02410.jpg"
+	},
+	{
+	"slug": "phantom",
+	"product_title": "精灵 Phantom",
+	"variant_title": "\"悟\" Inspire 2",
+	"ean": "https://product1.djicdn.com/uploads/spu/covers/30939/small_65184e3b-5caa-4434-879b-87f884abedee.png",
+	"price_cents": 1999900,
+	"original_price_cents": 1999900,
+	"on_sale": "购买指南",
+	"shipping_day": "https://product4.djicdn.com/uploads/photos/35443/large_4cb68b06-1b31-4369-9951-82b8f818b8c3.jpg"
+	},
+	{
+	"slug": "osmo",
+	"product_title": "灵眸 Osmo",
+	"variant_title": "DJI Care 随心换（Inspire 2）",
+	"ean":"https://product4.djicdn.com/uploads/spu/covers/30946/small_de4362b1-76f4-40d5-bf8e-3bcb76e24c0b.png",
+	"price_cents": 199900,
+	"original_price_cents": 199900,
+	"on_sale": "大疆社区",
+	"shipping_day": "https://product4.djicdn.com/uploads/photos/35448/large_f732da2a-df74-4e81-acd3-23dde94846b8.jpg"
+	},
+	{
+	"slug": "glass",
+	"product_title": "DJI 飞行眼镜",
+	"variant_title": "Mavic Pro 遥控器",
+	"ean": "https://product2.djicdn.com/uploads/spu/covers/30943/small_c714fca3-6c8e-4ffa-a92d-efb918843852.png",
+	"price_cents": 149900,
+	"original_price_cents": 149900,
+	"on_sale": true,
+	"shipping_day":"https://product4.djicdn.com/uploads/photos/35447/large_547a09b9-1137-46e4-b806-8f9278ca84a1.jpg"
+	},
+	{
+	"slug": "inspire",
+	"product_title": "\"悟\" Inspire",
+	"variant_title": "DJI 飞行眼镜",
+	"ean": "https://product4.djicdn.com/uploads/spu/covers/30946/small_de4362b1-76f4-40d5-bf8e-3bcb76e24c0b.png",
+	"price_cents": 239900,
+	"original_price_cents": 239900,
+	"on_sale": true,
+	"shipping_day": "https://product3.djicdn.com/uploads/photos/35444/large_2ea117f5-f9fe-4471-b03a-74427f065f2f.jpg"
+	},
+{
+	"slug": "ronin",
+	"product_title": "如影 Ronin",
+	"variant_title": "精灵 Phantom 4 Advanced",
+	"ean": "https://product2.djicdn.com/uploads/spu/covers/30943/small_c714fca3-6c8e-4ffa-a92d-efb918843852.png",
+	"price_cents": 799900,
+	"original_price_cents": 799900,
+	"on_sale": true,
+	"shipping_day": "https://product2.djicdn.com/uploads/photos/35187/large_f74568a5-9f56-4255-a67b-8f5ebd7b5156.jpg"
+	},
+	{
+	"slug": "agriculture",
+	"product_title": "行业应用&农业植保",
+	"variant_title": "Mavic Pro 快拆折叠螺旋桨",
+	"ean": "https://product4.djicdn.com/uploads/sku/covers/31314/small_55e19eff-2d6a-4d75-8e63-b9b5822fd298.png",
+	"price_cents": 4900,
+	"original_price_cents": 4900,
+	"on_sale": true,
+	"shipping_day": "https://product2.djicdn.com/uploads/photos/35446/large_5ff80792-f403-4834-bf05-ac3e8b89be9b.jpg"
+	},
+	{
+	"slug": "system",
+	"product_title": "系统模块",
+	"variant_title": "Apple ProRes 使用授权",
+	"ean": "6958265141041",
+	"price_cents": 300000,
+	"original_price_cents": 300000,
+	"on_sale": true,
+	"shipping_day": null
+	},
+	{
+	"slug": "developd",
+	"product_title": "开发者套件",
+	"variant_title": "Phantom 4 系列桨叶保护罩",
+	"ean": "6958265138485",
+	"price_cents": 9900,
+	"original_price_cents": 9900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "telo",
+	"product_title": "睿智科技 | 特洛",
+	"variant_title": "Spark 电池管家",
+	"ean": "6958265148996",
+	"price_cents": 39900,
+	"original_price_cents": 39900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "service",
+	"product_title": "增值服务",
+	"variant_title": "Phantom 4 Pro/Adv ND8减光镜",
+	"ean": "6958265138614",
+	"price_cents": 15900,
+	"original_price_cents": 15900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "create",
+	"product_title": "DJI 创意周边",
+	"variant_title": "Phantom 4 系列智能飞行电池",
+	"ean": "6958265138553",
+	"price_cents": 99900,
+	"original_price_cents": 99900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "dji-care-refresh-spark",
+	"product_title": "DJI Care 随心换（Spark）",
+	"variant_title": "DJI Care 随心换（Spark）",
+	"ean": "6958265148729",
+	"price_cents": 39900,
+	"original_price_cents": 39900,
+	"on_sale": true,
+	"shipping_day": null
+	},
+	{
+	"slug": "wireless-thumb-controller-for-ronin-m",
+	"product_title": "Ronin-M/MX 无线拇指摇杆控制器",
+	"variant_title": "Ronin-M/MX 无线拇指摇杆控制器",
+	"ean": "6958265113604",
+	"price_cents": 105900,
+	"original_price_cents": 105900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 10,
+	"day_end": 15,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "ronin-m",
+	"product_title": "如影 Ronin-M",
+	"variant_title": "如影 Ronin-M",
+	"ean": "6958265121159",
+	"price_cents": 599900,
+	"original_price_cents": 599900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "gear-backpack-medium",
+	"product_title": "曼富图步行者双肩背包GPM",
+	"variant_title": "曼富图步行者双肩背包GPM",
+	"ean": "7290105218025",
+	"price_cents": 39900,
+	"original_price_cents": 39900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 10,
+	"day_end": 15,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "osmo-pro-raw-z-axis",
+	"product_title": "Osmo Pro/RAW Z轴增稳器",
+	"variant_title": "Osmo Pro/RAW Z轴增稳器",
+	"ean": "6958265127359",
+	"price_cents": 119900,
+	"original_price_cents": 119900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 10,
+	"day_end": 15,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "phantom-4-9450s-quick-release-propellers",
+	"product_title": "Phantom 4 系列快拆桨",
+	"variant_title": "Phantom 4 系列快拆桨",
+	"ean": "6958265123009",
+	"price_cents": 4900,
+	"original_price_cents": 4900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "spark-portable-charging-station-bag",
+	"product_title": "Spark 移动充电盒便携包",
+	"variant_title": "Spark 移动充电盒便携包",
+	"ean": "6958265160370",
+	"price_cents": 9900,
+	"original_price_cents": 9900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": null
+	}
+	},
+	{
+	"slug": "inspire1-phantom-3-remote-controller-monitor-hood-tablets",
+	"product_title": "遥控器遮光罩平板版",
+	"variant_title": "遥控器遮光罩平板版",
+	"ean": "6958265115639",
+	"price_cents": 7900,
+	"original_price_cents": 7900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "micro-sd-card",
+	"product_title": "闪迪 microSD卡 16GB",
+	"variant_title": "闪迪 microSD卡 16GB",
+	"ean": "619659134648",
+	"price_cents": 5500,
+	"original_price_cents": 5500,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "ronin-m-mx-grip",
+	"product_title": "Ronin-M/MX 手持环",
+	"variant_title": "Ronin-M/MX 手持环",
+	"ean": "6958265127212",
+	"price_cents": 149900,
+	"original_price_cents": 149900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "osmo-base",
+	"product_title": "Osmo 底座",
+	"variant_title": "Osmo 底座",
+	"ean": "6958265122507",
+	"price_cents": 6900,
+	"original_price_cents": 6900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "phantom-4-battery-charging-hub",
+	"product_title": "Phantom 4 系列电池管家",
+	"variant_title": "Phantom 4 系列电池管家",
+	"ean": "6958265112836",
+	"price_cents": 49900,
+	"original_price_cents": 49900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "osmo-mobile-2-base",
+	"product_title": "Osmo Mobile 2 底座",
+	"variant_title": "Osmo Mobile 2 底座",
+	"ean": "6958265165962",
+	"price_cents": 6900,
+	"original_price_cents": 6900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "mavic-2-fly-more-kit",
+	"product_title": "Mavic 2 全能配件包",
+	"variant_title": "Mavic 2 全能配件包",
+	"ean": "6958265174605",
+	"price_cents": 239900,
+	"original_price_cents": 327200,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "ronin-mx",
+	"product_title": "如影 Ronin-MX",
+	"variant_title": "如影 Ronin-MX",
+	"ean": "6958265127236",
+	"price_cents": 869900,
+	"original_price_cents": 869900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 15,
+	"day_end": 20,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "osmo-battery-checker",
+	"product_title": "Osmo 电量查看器",
+	"variant_title": "Osmo 电量查看器",
+	"ean": "6958265122897",
+	"price_cents": 6900,
+	"original_price_cents": 6900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "zenmuse-x5r",
+	"product_title": "禅思 Zenmuse X5R",
+	"variant_title": "禅思 Zenmuse X5R",
+	"ean": "6958265121500",
+	"price_cents": 2069900,
+	"original_price_cents": 2069900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "zenmuse-x7-dl-dl-s-lens-set-spu",
+	"product_title": "Zenmuse X7 DL/DL-S 镜头套装",
+	"variant_title": "Zenmuse X7 DL/DL-S 镜头套装",
+	"ean": "6958265156762",
+	"price_cents": 2699900,
+	"original_price_cents": 3299600,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 10,
+	"day_end": 15,
+	"tip": null
+	}
+	},
+	{
+	"slug": "focus",
+	"product_title": "DJI 无线跟焦器",
+	"variant_title": "DJI 无线跟焦器",
+	"ean": "6958265104435",
+	"price_cents": 899900,
+	"original_price_cents": 899900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 10,
+	"day_end": 15,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "osmo-mobile-2",
+	"product_title": "灵眸 Osmo 手机云台 2",
+	"variant_title": "灵眸 Osmo 手机云台 2",
+	"ean": "6958265162312",
+	"price_cents": 89900,
+	"original_price_cents": 89900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "dji-care-phantom-4-1-year",
+	"product_title": "DJI Care (Phantom 4)",
+	"variant_title": "DJI Care (Phantom 4)",
+	"ean": "6958265124440",
+	"price_cents": 188800,
+	"original_price_cents": 188800,
+	"on_sale": true,
+	"shipping_day": null
+	},
+	{
+	"slug": "phantom-4-car-charger-kit",
+	"product_title": "Phantom 4 系列车载充电器",
+	"variant_title": "Phantom 4 系列车载充电器",
+	"ean": "6958265123160",
+	"price_cents": 42000,
+	"original_price_cents": 42000,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "inspire-1-raw",
+	"product_title": "\"悟\" Inspire 1 RAW (双控版)",
+	"variant_title": "\"悟\" Inspire 1 RAW (双控版)",
+	"ean": "6958265121388",
+	"price_cents": 2899900,
+	"original_price_cents": 2899900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "phantom-3-intelligent-flight-battery",
+	"product_title": "Phantom 3 智能飞行电池",
+	"variant_title": "Phantom 3 智能飞行电池",
+	"ean": "6958265117565",
+	"price_cents": 84900,
+	"original_price_cents": 84900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "multifunctional-backpack-for-phantom-series",
+	"product_title": "Phantom 系列多功能背包",
+	"variant_title": "Phantom 系列多功能背包",
+	"ean": "6958265137747",
+	"price_cents": 119900,
+	"original_price_cents": 119900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "dji-care-refresh-mavic-air",
+	"product_title": "DJI Care 随心换（Mavic Air）",
+	"variant_title": "DJI Care 随心换（Mavic Air）",
+	"ean": "6958265163623",
+	"price_cents": 49900,
+	"original_price_cents": 49900,
+	"on_sale": true,
+	"shipping_day": null
+	},
+	{
+	"slug": "ronin-m-focus",
+	"product_title": "如影 Ronin-M + DJI 无线跟焦器",
+	"variant_title": "如影 Ronin-M + DJI 无线跟焦器",
+	"ean": "EAN.M0000064",
+	"price_cents": 1299800,
+	"original_price_cents": 1599800,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 10,
+	"day_end": 15,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "ronin-s",
+	"product_title": "如影 Ronin-S",
+	"variant_title": "如影 Ronin-S",
+	"ean": "6958265171321",
+	"price_cents": 379900,
+	"original_price_cents": 439900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "dji-extended-warranty-osmo",
+	"product_title": "OSMO Shield (Osmo)",
+	"variant_title": "OSMO Shield (Osmo)",
+	"ean": "6958265135262",
+	"price_cents": 24900,
+	"original_price_cents": 24900,
+	"on_sale": true,
+	"shipping_day": null
+	},
+	{
+	"slug": "inspire-2-car-charger",
+	"product_title": "\"悟\" Inspire 2 车载充电器",
+	"variant_title": "\"悟\" Inspire 2 车载充电器",
+	"ean": "6958265144738",
+	"price_cents": 69900,
+	"original_price_cents": 69900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "mavic-remote-controller-monitor-hood",
+	"product_title": "Mavic 遥控器遮光罩",
+	"variant_title": "Mavic 遥控器遮光罩",
+	"ean": "6958265134722",
+	"price_cents": 11900,
+	"original_price_cents": 11900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "mavic-battery-charging-hub-advanced",
+	"product_title": "Mavic Pro 电池管家 (高级版)",
+	"variant_title": "Mavic Pro 电池管家 (高级版)",
+	"ean": "6958265134685",
+	"price_cents": 39900,
+	"original_price_cents": 39900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "ronin-series-auxiliary-power-adapter",
+	"product_title": "Ronin 系列外接电源适配器",
+	"variant_title": "Ronin 系列外接电源适配器",
+	"ean": "6958265144646",
+	"price_cents": 129900,
+	"original_price_cents": 129900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 10,
+	"day_end": 15,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "spark-intelligent-flight-battery",
+	"product_title": "Spark 智能飞行电池",
+	"variant_title": "Spark 智能飞行电池",
+	"ean": "6958265147838",
+	"price_cents": 29900,
+	"original_price_cents": 29900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "spark-quick-release-folding-propellers",
+	"product_title": "Spark 快拆折叠螺旋桨",
+	"variant_title": "Spark 快拆折叠螺旋桨",
+	"ean": "6958265148705",
+	"price_cents": 4900,
+	"original_price_cents": 4900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "dji-care-refresh-phantom-4-pro",
+	"product_title": "DJI Care 随心换（Phantom 4 Pro 系列）",
+	"variant_title": "DJI Care 随心换（Phantom 4 Pro 系列）",
+	"ean": "6958265139772",
+	"price_cents": 99900,
+	"original_price_cents": 99900,
+	"on_sale": true,
+	"shipping_day": null
+	},
+	{
+	"slug": "dji-care-refresh-mavic-2",
+	"product_title": "DJI Care 随心换（Mavic 2）",
+	"variant_title": "DJI Care 随心换（Mavic 2）",
+	"ean": "6958265171765",
+	"price_cents": 89900,
+	"original_price_cents": 89900,
+	"on_sale": true,
+	"shipping_day": null
+	},
+	{
+	"slug": "ronin-2-accessories-package",
+	"product_title": "Ronin 2 配件包",
+	"variant_title": "Ronin 2 配件包",
+	"ean": "6958265156953",
+	"price_cents": 29900,
+	"original_price_cents": 29900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": null
+	}
+	},
+	{
+	"slug": "mavic-pro-platinum",
+	"product_title": "\"御\" Mavic Pro 铂金版",
+	"variant_title": "\"御\" Mavic Pro 铂金版",
+	"ean": "6958265152832",
+	"price_cents": 649900,
+	"original_price_cents": 649900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "phantom-4-pro-v2",
+	"product_title": "精灵 Phantom 4 Pro V2.0",
+	"variant_title": "精灵 Phantom 4 Pro V2.0",
+	"ean": "6958265164941",
+	"price_cents": 999900,
+	"original_price_cents": 999900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 10,
+	"day_end": 15,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "spark-storage-box-carrying-bag",
+	"product_title": "Spark 便携包",
+	"variant_title": "Spark 便携包",
+	"ean": "6958265150357",
+	"price_cents": 7900,
+	"original_price_cents": 7900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "zenmuse-x7-lens-excluded",
+	"product_title": "禅思 Zenmuse X7",
+	"variant_title": "禅思 Zenmuse X7",
+	"ean": "6958265154713",
+	"price_cents": 1699900,
+	"original_price_cents": 1699900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 10,
+	"day_end": 15,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "zenmuse-x5s",
+	"product_title": "禅思 Zenmuse X5S",
+	"variant_title": "禅思 Zenmuse X5S",
+	"ean": "6958265139161",
+	"price_cents": 1249900,
+	"original_price_cents": 1249900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "inspire-2-1550t-quick-release-propellers",
+	"product_title": "\"悟\" Inspire 2 快拆桨",
+	"variant_title": "\"悟\" Inspire 2 快拆桨",
+	"ean": "6958265140495",
+	"price_cents": 9900,
+	"original_price_cents": 9900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "mavic-2-and-dji-goggles-re",
+	"product_title": "\"御\" Mavic 2 & DJI 飞行眼镜竞速版",
+	"variant_title": "\"御\" Mavic 2 变焦版 & DJI 飞行眼镜竞速版",
+	"ean": "EAN2018062802",
+	"price_cents": 1084700,
+	"original_price_cents": 1148700,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "mavic-propeller-guard",
+	"product_title": "Mavic Pro 桨叶保护罩",
+	"variant_title": "Mavic Pro 桨叶保护罩",
+	"ean": "6958265134708",
+	"price_cents": 9900,
+	"original_price_cents": 9900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "mavic-aircraft-sleeve",
+	"product_title": "Mavic Pro 机身收纳袋",
+	"variant_title": "Mavic Pro 机身收纳袋",
+	"ean": "6958265142123",
+	"price_cents": 3900,
+	"original_price_cents": 3900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "ronin-2-professional-combo",
+	"product_title": "如影 Ronin 2专业套装",
+	"variant_title": "如影 Ronin 2专业套装",
+	"ean": "6958265150784",
+	"price_cents": 4699900,
+	"original_price_cents": 4699900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "spark-propeler",
+	"product_title": "\"晓\" Spark",
+	"variant_title": "\"晓\" Spark 操控套装（初雪白）",
+	"ean": "https://product4.djicdn.com/uploads/sku/covers/31314/small_55e19eff-2d6a-4d75-8e63-b9b5822fd298.png",
+	"price_cents": 319900,
+	"original_price_cents": 319900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "spark-propeller-guard",
+	"product_title": "Spark 桨叶保护罩",
+	"variant_title": "Spark 桨叶保护罩",
+	"ean": "6958265148699",
+	"price_cents": 9900,
+	"original_price_cents": 9900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "spark-remote-controller",
+	"product_title": "Spark 遥控器",
+	"variant_title": "Spark 遥控器",
+	"ean": "6958265149207",
+	"price_cents": 69900,
+	"original_price_cents": 69900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "dji-battery-safe-bag",
+	"product_title": "DJI 电池安全袋",
+	"variant_title": "DJI 电池安全袋 (大)",
+	"ean": "6958265150616",
+	"price_cents": 5900,
+	"original_price_cents": 5900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "pgytech-spark-hand-guards",
+	"product_title": "PGYTECH Spark 护手器",
+	"variant_title": "PGYTECH Spark 护手器",
+	"ean": "6970801332805",
+	"price_cents": 4500,
+	"original_price_cents": 5900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "mavic-pro",
+	"product_title": "\"御\" Mavic Pro",
+	"variant_title": "\"御\" Mavic Pro",
+	"ean": "6958265134364",
+	"price_cents": 649900,
+	"original_price_cents": 649900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 10,
+	"day_end": 15,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "mavic-intelligent-flight-battery",
+	"product_title": "Mavic Pro 智能飞行电池",
+	"variant_title": "Mavic Pro 智能飞行电池",
+	"ean": "6958265134579",
+	"price_cents": 49900,
+	"original_price_cents": 49900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "inspire-2-intelligent-flight-battery",
+	"product_title": "\"悟\" Inspire 2/Ronin 2 TB50 智能飞行电池",
+	"variant_title": "\"悟\" Inspire 2/Ronin 2 TB50 智能飞行电池",
+	"ean": "6958265140488",
+	"price_cents": 99900,
+	"original_price_cents": 99900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "cinemadng-license-key",
+	"product_title": "CinemaDNG 使用授权",
+	"variant_title": "CinemaDNG 使用授权",
+	"ean": "6958265141027",
+	"price_cents": 650000,
+	"original_price_cents": 650000,
+	"on_sale": true,
+	"shipping_day": null
+	},
+	{
+	"slug": "inspire-2-quick-release-propellers-for-high-altitude",
+	"product_title": "\"悟\" Inspire 2 快拆高原桨",
+	"variant_title": "\"悟\" Inspire 2 快拆高原桨",
+	"ean": "6958265141294",
+	"price_cents": 14900,
+	"original_price_cents": 14900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "sandisk-micro-sd-card-64gb",
+	"product_title": "闪迪 microSD卡 64GB",
+	"variant_title": "闪迪 microSD卡 64GB",
+	"ean": "619659135669",
+	"price_cents": 17900,
+	"original_price_cents": 21900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "pgytech-drones-landing-pad",
+	"product_title": "PGYTECH 无人机停机坪",
+	"variant_title": "PGYTECH 无人机停机坪 (75cm)",
+	"ean": "6970801330795",
+	"price_cents": 7900,
+	"original_price_cents": 7900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "intelligent-battery-tb47",
+	"product_title": "\"悟\" Inspire 1 TB47 智能飞行电池 (4500mAh)",
+	"variant_title": "\"悟\" Inspire 1 TB47 智能飞行电池 (4500mAh)",
+	"ean": "6958265121722",
+	"price_cents": 89900,
+	"original_price_cents": 95900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 10,
+	"day_end": 15,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "focus-remote-controller",
+	"product_title": "DJI无线跟焦器遥控器",
+	"variant_title": "DJI无线跟焦器遥控器",
+	"ean": "6958265104558",
+	"price_cents": 439900,
+	"original_price_cents": 439900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 10,
+	"day_end": 15,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "osmo-shield-osmo-pocket",
+	"product_title": "OSMO Shield (Osmo Pocket)",
+	"variant_title": "OSMO Shield (Osmo Pocket)",
+	"ean": "6958265179846",
+	"price_cents": 19900,
+	"original_price_cents": 19900,
+	"on_sale": true,
+	"shipping_day": null
+	},
+	{
+	"slug": "mavic-intelligent-flight-battery-platinum",
+	"product_title": "Mavic Pro 铂金版智能飞行电池",
+	"variant_title": "Mavic Pro 铂金版智能飞行电池",
+	"ean": "6958265152955",
+	"price_cents": 49900,
+	"original_price_cents": 49900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "spark-portable-power-pack",
+	"product_title": "Spark 移动充电盒优惠套装",
+	"variant_title": "Spark 移动充电盒优惠套装",
+	"ean": "EAN2017112001",
+	"price_cents": 79900,
+	"original_price_cents": 109700,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": null
+	}
+	},
+	{
+	"slug": "mavic-2",
+	"product_title": "\"御\" Mavic 2",
+	"variant_title": "\"御\" Mavic 2 专业版",
+	"ean": "6958265174483",
+	"price_cents": 988800,
+	"original_price_cents": 988800,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "inspire-2-battery-station",
+	"product_title": "DJI 电池管理站",
+	"variant_title": "DJI 电池管理站",
+	"ean": "6958265154294",
+	"price_cents": 769900,
+	"original_price_cents": 769900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "ronin-2-basic-combo",
+	"product_title": "如影 Ronin 2 手持套装",
+	"variant_title": "如影 Ronin 2 手持套装",
+	"ean": "6958265162220",
+	"price_cents": 3299900,
+	"original_price_cents": 3299900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "ronin-2-tb50-intelligent-battery",
+	"product_title": "Ronin 2/Inspire 2 TB50智能电池（4280mAh）",
+	"variant_title": "Ronin 2/Inspire 2 TB50智能电池（4280mAh）",
+	"ean": "6958265157042",
+	"price_cents": 99900,
+	"original_price_cents": 99900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "mavic-air",
+	"product_title": "\"御\" Mavic Air",
+	"variant_title": "\"御\" Mavic Air (雪域白)",
+	"ean": "6958265159534",
+	"price_cents": 499900,
+	"original_price_cents": 499900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "mavic-air-intelligent-flight-battery",
+	"product_title": "Mavic Air 智能飞行电池",
+	"variant_title": "Mavic Air 智能飞行电池",
+	"ean": "6958265161964",
+	"price_cents": 47900,
+	"original_price_cents": 47900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "mavic-air-battery-charging-hub",
+	"product_title": "Mavic Air 电池管家",
+	"variant_title": "Mavic Air 电池管家",
+	"ean": "6958265162718",
+	"price_cents": 29900,
+	"original_price_cents": 29900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": null
+	}
+	},
+	{
+	"slug": "phantom-4-series-low-noise-propellers",
+	"product_title": "Phantom 4 系列降噪螺旋桨",
+	"variant_title": "Phantom 4 系列降噪螺旋桨",
+	"ean": "6958265170409",
+	"price_cents": 5900,
+	"original_price_cents": 5900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": null
+	}
+	},
+	{
+	"slug": "mavic-air-propellers",
+	"product_title": "Mavic Air 螺旋桨",
+	"variant_title": "Mavic Air 螺旋桨",
+	"ean": "6958265162381",
+	"price_cents": 4900,
+	"original_price_cents": 4900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "osmo-shield-osmo-mobile",
+	"product_title": "OSMO Shield (Osmo Mobile)",
+	"variant_title": "OSMO Shield (Osmo Mobile)",
+	"ean": "6958265135309",
+	"price_cents": 16900,
+	"original_price_cents": 16900,
+	"on_sale": true,
+	"shipping_day": null
+	},
+	{
+	"slug": "mavic-low-noise-quick-release-props-platinum",
+	"product_title": "Mavic Pro 降噪快拆螺旋桨",
+	"variant_title": "Mavic Pro 降噪快拆螺旋桨 (金色)",
+	"ean": "6958265152962",
+	"price_cents": 5900,
+	"original_price_cents": 5900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "inspire-1345t-quick-release-propellers",
+	"product_title": "\"悟\" Inspire 1 1345T快拆桨",
+	"variant_title": "\"悟\" Inspire 1 1345T快拆桨",
+	"ean": "6958265115851",
+	"price_cents": 6900,
+	"original_price_cents": 6900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "osmo-pocket",
+	"product_title": "灵眸 Osmo 口袋云台相机",
+	"variant_title": "灵眸 Osmo 口袋云台相机",
+	"ean": "6958265178849",
+	"price_cents": 249900,
+	"original_price_cents": 249900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "ronin-m-suitcase",
+	"product_title": "Ronin-M 手提箱",
+	"variant_title": "Ronin-M 手提箱",
+	"ean": "6958265104565",
+	"price_cents": 129900,
+	"original_price_cents": 129900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "mavic-2-intelligent-flight-battery",
+	"product_title": "Mavic 2 智能飞行电池",
+	"variant_title": "Mavic 2 智能飞行电池",
+	"ean": "6958265174971",
+	"price_cents": 89900,
+	"original_price_cents": 89900,
+	"on_sale": true,
+	"shipping_day": {
+	"day_start": 0,
+	"day_end": 1,
+	"tip": ""
+	}
+	},
+	{
+	"slug": "mavic-2-low-noise-propellers",
+	"product_title": "Mavic 2 降噪螺旋桨",
+	"variant_title": "Mavic 2 降噪螺旋桨",
+	"ean": "6958265174988",
+	"price_cents": 7900,
+	"original_price_cents": 7900,
+	"on_sale": true,
+	"shipping_day": {
+			"day_start": 0,
+			"day_end": 1,
+			"tip": ""
+		}
+	}
+]

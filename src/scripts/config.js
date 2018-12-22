@@ -5,11 +5,9 @@ requirejs.config({
 	//设置每个js对应的key value
 	//有链接关系的都需要设置
 	paths : {
-		"jquery" : "jquery-1.9.0",
-		"swiper" : "swiper",
-		"common" : "common",
-		"fontscroll" : "fontscroll",
-		"a" : "a",
-		"b" : "b",
+		"jquery" : "libs/jquery.min",
+		"swiper" : "libs/swiper.min",
+		"slider" : "libs/jquery.slider.min",
+		"cookie" : "libs/jquery.cookie",
 	}
 });

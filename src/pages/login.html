@@ -2,10 +2,87 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
+		<title>login</title>
+		<link rel="stylesheet" type="text/css" href="../styles/login.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/jquery.slider.css"/>
+		<script src="../scripts/libs/jquery.min.js" type="text/javascript" data-main="login.js"></script>
+		<script src="../scripts/libs/require.js" type="text/javascript" data-main="login.js"></script>
 	</head>
 	<body>
-		
+		<main>
+			<!--<div id="logo">
+				<a href="//www.dji.com" title="dji" target="_blank">
+					<img src="../images/logo.png" />
+				</a>
+			</div>-->
+			<div id="main-l">
+				<div class="swiper-container">
+				  	<div class="swiper-wrapper">
+				    	<div class="swiper-slide">
+							<img src="https://account.djicdn.com/pc/static/img/3.61f61fa.jpg" />
+				    	</div>
+				    	<div class="swiper-slide">
+				    		<img src="https://account.djicdn.com/pc/static/img/1.e61fc72.jpg" />
+				    	</div>
+				    	<div class="swiper-slide">
+							<img src="https://account.djicdn.com/pc/static/img/2.643c4c1.jpg" />
+				    	</div>
+				  	</div>
+				  	<div class="swiper-pagination"></div>
+				  	<div class="swiper-button-prev"></div><!--左箭头-->
+		    		<div class="swiper-button-next"></div><!--右箭头-->
+				</div>
+			</div>
+			<div id="main-r">
+				<div class="login">
+					<h3>登录</h3>
+					<div class="message">
+						<p>
+							<input type="txt" name="user" id="user" value="" placeholder="邮箱/手机*"/>
+							<i>邮箱/手机格式不正确</i>
+						</p>
+						<p>
+							<input type="password" name="pass" id="pass" value="" placeholder="密码*"/>
+							<a href="#">忘记密码？</a>
+							<i>密码不正确</i>
+						</p>
+						<p id="slider">
+						</p>
+						<p>
+							<input type="submit" name="sub" id="sub" value="登录"/>
+						</p>
+						<p>
+							<a>注册DJI账号</a>
+						</p>
+						<p>
+							<span></span>或使用第三方账号登陆<span></span>
+						</p>
+						<p>
+							<a href="https://open.weixin.qq.com/connect/qrconnect?response_type=code&scope=snsapi_login&appid=wxb6a8d1bec4e0d620&redirect_uri=https%3A%2F%2Faccount.dji.com%2Fuser%2Fwebrest%2Fv1%2Foauth%2Fwechat%2Fredirect.do&state=95f4ceb4279b4b459e3a1e8122552255#wechat_redirect">
+								<img src="../images/weixin.png" />微信
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			
+		</main>
+		<footer>
+			<p>Copyright © 2018 DJI All Rights Reserved. &nbsp;<span>
+				<a href="https://www.dji.com/cn/policy" target="_blank">隐私政策</a>&nbsp;
+				<a href="https://www.dji.com/cn/terms" target="_blank">使用条款</a>&nbsp;
+				<a href="https://www.dji.com/cn/sitemap" target="_blank">网站地图</a></span>	
+			</p>
+			<p>如果您有任何关于DJI账户的问题，请
+				<a href="https://www.dji.com/support">点击此处</a>
+				。
+			</p>
+			<p>
+				<a target="_blank" href="http://www.miitbeian.gov.cn/" style="text-decoration: none;">粤ICP备12022215号-11</a>
+			</p>
+		</footer>
 	</body>
-	<script src="../scripts/require.js" type="text/javascript" data-main="login.js"></script>
 </html>

@@ -1,0 +1,255 @@
+body {
+  background: #eee; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+input {
+  outline: none; }
+
+main {
+  width: 1200px;
+  height: 858px;
+  margin: 100px auto 0;
+  box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.15);
+  background-color: white; }
+
+main #main-l {
+  float: left; }
+
+main #main-l .swiper-container {
+  width: 600px;
+  height: 858px; }
+
+main #main-l .swiper-container img {
+  width: 100%;
+  height: 100%; }
+
+main #main-r {
+  float: right;
+  width: 600px;
+  height: 858px;
+  text-align: center; }
+
+main #main-r .register {
+  width: 300px;
+  margin: 0 auto; }
+
+main #main-r .register a.logo {
+  display: inline-block;
+  margin-top: 80px; }
+
+main #main-r .register h3 {
+  font-size: 30px;
+  color: #3b3e40;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 30px 0 40px; }
+
+main #main-r .register .chose {
+  width: 300px;
+  height: 44px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.54);
+  border: 0;
+  display: flex; }
+
+main #main-r .register .chose a {
+  width: 150px;
+  height: 37px;
+  padding: 3px;
+  font-size: 16px;
+  line-height: 44px;
+  font-weight: 400;
+  color: #333;
+  cursor: pointer;
+  border-bottom: 1px solid #eee; }
+
+main #main-r .register .chose a:hover {
+  border-bottom: 1px solid #44a8f2;
+  color: #44A8F2; }
+
+main #main-r .phone {
+  width: 300px;
+  margin: 0 auto; }
+
+main #main-r .phone p {
+  width: 300px;
+  height: 44px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.54); }
+
+main #main-r .phone p input {
+  width: 278px;
+  height: 42px;
+  padding-left: 10px;
+  border: 0; }
+
+main #main-r .phone p:nth-child(1) {
+  border: 0; }
+
+main #main-r .phone p:nth-child(1) span {
+  display: inline-block;
+  float: left;
+  width: 49px;
+  height: 40px;
+  padding: 1px 15px;
+  line-height: 46px;
+  font-size: 16px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-right: 0;
+  background-color: #f7f8f9; }
+
+main #main-r .phone p:nth-child(1) #user {
+  width: 208px;
+  float: left;
+  border: 1px solid #ddd; }
+
+main #main-r .phone p:nth-child(1) a {
+  float: right;
+  margin-right: 10px;
+  line-height: 44px;
+  color: rgba(0, 0, 0, 0.54); }
+
+main #main-r .phone p:nth-child(1) a:hover {
+  color: #007AFF; }
+
+main #main-r .phone p:nth-child(2) {
+  border: none;
+  cursor: pointer; }
+
+main #main-r .phone p:nth-child(3) {
+  display: flex;
+  align-items: center;
+  overflow: hidden; }
+
+main #main-r .phone p:nth-child(3) #message {
+  width: 150px;
+  background: none; }
+
+main #main-r .phone p:nth-child(3) a {
+  width: 130px;
+  height: 34px;
+  margin-right: 8px;
+  background-color: #44a8f2;
+  line-height: 34px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  border-radius: 2px; }
+
+main #main-r .phone p:nth-child(4) {
+  border: none; }
+
+main #main-r .phone p:nth-child(4) #next {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-color: #44a8f2;
+  font-size: 16px;
+  font-weight: 400;
+  color: white; }
+
+main #main-r .phone p:nth-child(5) {
+  cursor: pointer;
+  border: none; }
+
+main #main-r .phone p:nth-child(5) a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  color: #44a8f2;
+  text-align: center; }
+
+main #main-r .email {
+  width: 300px;
+  margin: 0 auto;
+  display: none; }
+
+main #main-r .email p {
+  width: 300px;
+  height: 44px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.54); }
+
+main #main-r .email p input {
+  width: 278px;
+  height: 42px;
+  padding-left: 10px;
+  border: 0; }
+
+main #main-r .email p:nth-child(4) {
+  border: none;
+  cursor: pointer; }
+
+main #main-r .email p:nth-child(6) {
+  border: none; }
+
+main #main-r .email p:nth-child(6) input {
+  width: 100%;
+  height: 100%;
+  background-color: #44a8f2;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  cursor: pointer; }
+
+main #main-r .email p:nth-child(7) {
+  border: none;
+  cursor: pointer; }
+
+main #main-r .email p:nth-child(7) a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 44px;
+  color: #44a8f2;
+  text-align: center; }
+
+main #main-r .email #check {
+  height: 72px;
+  text-align: left;
+  color: #707473;
+  padding-top: 10px;
+  line-height: 22px;
+  cursor: pointer; }
+
+main #main-r .email #check div {
+  margin-top: 10px;
+  overflow: hidden; }
+
+main #main-r .email #check div input {
+  float: left;
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+  background: #44a8f2; }
+
+footer {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center; }
+
+footer p {
+  height: 24px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #979797;
+  line-height: 2; }
+
+footer p a {
+  color: #979797; }
+
+footer p a:hover {
+  color: #007AFF; }

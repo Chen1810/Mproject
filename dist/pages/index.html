@@ -2,26 +2,862 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
-	</head>
-	<link rel="stylesheet" type="text/css" href="../styles/index.css"/>
-	<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
-	<link rel="stylesheet" type="text/css" href="../static/fonts/iconfont.css"/>
-	<body>
-		hello   ssssssssssssssssssss    nihaoaaaaaaaaaaaaaa 自动刷新
-		
-		<p>
-			<span class="iconfont icon-kaixin"></span>
-		</p>
-		
-	</body>
-	<script type="text/javascript">
-		
-		$.ajax({
-			url : "https://localhost:8090/abcdefg?pageNo=2&pageSize=15",
-			success : function(data){
-				console.log(data);
+		<title>DJI大疆官方商城 - 大疆无人机、手持稳定器、专业影像设备及增值服务 (中国大陆)</title>
+		<link rel="stylesheet" type="text/css" href="../styles/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="../static/fonts/iconfont.css">
+		<script src="../scripts/libs/jquery.min.js" type="text/javascript" data-main="register.js"></script>
+		<script src="../scripts/libs/require.js" type="text/javascript" data-main="index.js"></script>
+		<style type="text/css">
+			.icon {
+			   width: 1em; height: 1em;
+			   vertical-align: -0.15em;
+			   fill: currentColor;
+			   overflow: hidden;
 			}
-		})
-	</script>
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="header-t">
+				<div class="header-z">
+					<div class="header-t-l">
+						<a target="_blank" href="//www.dji.com/cn?from=store_top_nav">大疆官网</a>
+						<span>满¥99顺丰包邮。支持支付宝、微信、银联、顺丰到付、花呗和招行分期，下单即享1%DJI币返点。</span>
+					</div>
+					<div class="header-t-r">
+						<ul>
+							<li>
+								<a href="#">
+									<i class="iconfont icon-gouwuche-copy"></i>
+									<span class="shop_car">购物车</span>
+									<span class="number">0</span>
+									<p>购物车有<span>0</span>件商品</p>
+								</a>
+							</li>
+							<li>
+								<span>|</span><a target="_blank" href="https://accounts.dji.com/cn/user/login">登录</a><span>|</span><a target="_blank" href="https://accounts.dji.com/cn/user/register">注册</a><span>|</span>
+							</li>
+							<li>
+								<a href="#">中国大陆<!-- --> (<!-- -->简体中文<!-- --> / <!-- -->¥<!-- --> <!-- -->CNY<!-- -->)</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header-b">
+				<div class="header-z">
+					<div class="header-b-l">
+						<a alt="DJI 商城" title="DJI 商城" href="/cn">
+							<img src="../images/logo.png"/>
+							<span>商城</span>
+						</a>
+					</div>
+					<div class="header-b-c">
+						<ul>
+							<li class="menu-li classify">
+								<a href="#" class="down_gray">商品分类
+									<img src="../images/down_gray.png"/>
+								</a>
+								<div id="listmenu">							
+								</div>
+								<div id="list1"  >
+									<ul>
+										
+									</ul>
+								</div>
+							</li>
+							<li class="menu-li usescene">
+								<a href="#" class="down_gray">使用场景
+									<img src="../images/down_gray.png"/>
+								</a>
+								<div id="listmenu">							
+								</div>
+								<div id="list2">
+									<ul>
+										
+									</ul>
+								</div>
+							</li>
+							<li class="menu-li">
+								<a href="#">以旧换新</a>
+							</li>
+							<li class="menu-li">
+								<a href="#">Select会员</a>
+							</li>
+							<li class="menu-li">
+								<a href="#">购机指南</a>
+							</li>
+							<li class="menu-li">
+								<a href="#">大疆商城APP </a>
+							</li>
+							<li class="menu-li favour">
+								<a href="#" class="down_red">优惠
+									<img src="../images/down_red.png"/>
+								</a>
+								<div id="list7">
+									<ul>
+										<li class="mavic">
+											<a href="#">优惠促销</a>
+										</li>
+										<li class="spark">
+											<a href="#">翻新机</a>
+										</li>
+										<li class="phantom">
+											<a href="#">教育折扣</a>
+										</li>
+										<li class="osmo">
+											<a href="#">企业采购</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="header-b-r">
+						<div>
+							<input type="text" name="ser" id="ser" value="" placeholder="搜索商品..."/>
+							<ul class="search-res"></ul>
+							<i class="iconfont icon-sousuo"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		
+		<nav class="margin">
+			<ul>
+				<li>
+					<a href="https://store.dji.com/cn/shop/spark-series?from=menu_products">
+						<img src="https://stormsend1.djicdn.com/stormsend/uploads/426f1e20-9980-0136-ac86-1237445f15bc/spark.svg"/>
+						<span>"晓" Spark</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://store.dji.com/cn/shop/mavic-series?from=menu_products">
+						<img src="https://stormsend1.djicdn.com/stormsend/uploads/48c26180-9980-0136-3e40-12528100fbe3/mavic2.svg"/>
+						<span>"御" Mavic</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://store.dji.com/cn/shop/phantom-series?from=menu_products">
+						<img src="https://stormsend1.djicdn.com/stormsend/uploads/769872f0-9980-0136-ac89-1237445f15bc/phantom.svg"/>
+						<span>精灵 Phantom</span>
+					</a>
+				</li>
+				
+			</ul>
+		</nav>
+		
+		
+		<div class="swiper-container">
+		  	<div class="swiper-wrapper">
+		    	<div class="swiper-slide">
+		    		<img src="https://stormsend1.djicdn.com/stormsend/uploads/36f10a40-d479-0136-aeed-12144febcf6e/%E9%A6%96%E9%A1%B5banner_3840_960__01.jpg"/>
+		    	</div>
+		    	<div class="swiper-slide">
+		    		<img src="https://stormsend1.djicdn.com/stormsend/uploads/98e28610-87e9-0136-da61-12530322f90d/PC_kv_banner_3840_1000.jpg"/>
+		    	</div>
+		    	<div class="swiper-slide"><img src="https://stormsend1.djicdn.com/stormsend/uploads/2a390800-6bbd-0136-d98e-12530322f90d/pc_copy_2.jpg"/>
+		    	</div>
+		  	</div>
+		  	<div class="swiper-pagination"></div>
+		  	<div class="swiper-button-prev"></div><!--左箭头-->
+			<div id="prev"></div>
+		  	<div class="swiper-button-next"></div><!--右箭头-->
+		  	<div id="next"></div>
+		</div>
+		
+		<div id="news">
+			<div id="news-t" class="margin">
+				<ul>
+					
+				</ul>
+			</div>
+			<div id="news-b" class="margin">
+					<a href="https://store.dji.com/pages/recycle?from=store-home-event-banner">
+						<p>DJI 以旧换新<br>闲置电子设备，抵价换新机</p>
+						<img src="https://stormsend1.djicdn.com/stormsend/uploads/e823afc0-9245-0136-49db-121c6889d544/4.png"/>
+					</a>
+					<a href="https://store.dji.com/education?from=store-home-event-banner">
+						<p>教育折扣<br>最高九折，等你申领</p>
+						<img src="https://stormsend1.djicdn.com/stormsend/uploads/18fde490-9246-0136-49dc-121c6889d544/5.png"/>
+					</a>
+			</div>
+		</div>
+		
+		<main>
+			
+			<div class="main-z margin">
+				<h2>
+					"御"Mavic
+					<a href="/cn/shop/mavic-series">更多></a>
+				</h2>
+				<div id="main-t">
+					<a href="https://store.dji.com/cn/product/mavic-2">
+						<img src="https://product4.djicdn.com/uploads/sku/covers/31314/small_55e19eff-2d6a-4d75-8e63-b9b5822fd298%402x.png"/>
+						<div>
+							<h4>"御" Mavic 2</h4>
+							<p>画质旗舰，变焦先锋。新一代消费级航拍旗舰之作。</p>
+							<span>¥9888</span>
+						</div>
+					</a>
+					<img src="../images/Mavic2.png" style="width: 600px;height: 400px;"/>
+				</div>
+				<div id="main-b">
+					<ul>
+						<li>
+							<a href="https://store.dji.com/cn/product/mavic-2-and-dji-goggles-re">
+								<img src="https://product4.djicdn.com/uploads/bundle/covers/31321/small_4db147ca-8a81-4dcb-a84e-0ef2bc52c0cc%402x.png" />
+								<img src="https://product3.djicdn.com/uploads/spu_bundle/hovers/30938/a195087f-85e4-43b2-bcd6-6b185d9d137b.jpg" />
+								<p>"御" Mavic 2可通过 OcuSync与 DJI飞行眼竞速版无线连接，更低延时结合 8 公里1080p全高清图传，远景清晰而流畅。</p>
+								<h4>"御" Mavic 2 &amp; DJI 飞行眼镜竞速版</h4>
+								<span>¥10847</span>
+								<s>¥11487</s>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/mavic-air">
+								<img src="https://product2.djicdn.com/uploads/sku/covers/30934/small_beceb8fe-c7d6-41c9-9d36-e6b608c7f059%402x.png" />
+								<img src="https://product3.djicdn.com/uploads/spu/hovers/30636/12067932-25e2-4838-b180-812068dadfb1.jpg" />
+								<p>可折叠，体积小，性能强，只为与你随行，展开新视界。</p>
+								<h4>"御" Mavic Air</h4>
+								<span>¥4999</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/mavic-pro-platinum">
+								<img src="https://product1.djicdn.com/uploads/spu/covers/30436/small_5e5875f9-f465-470c-b16c-bfd779e40536%402x.png" />
+								<img src="//product3.djicdn.com/uploads/spu/hovers/30436/590ab73c-ecf7-407a-aab1-3754d37fece0.jpg" />
+								<p>更安静，更尽兴</p>
+								<h4>"御" Mavic Pro 铂金版</h4>
+								<span>¥6499</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/mavic-pro">
+								<img src="https://product2.djicdn.com/uploads/sku/covers/30020/small_5a28a1af-ee71-4e7d-908f-0545b2c9dfd6%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>"御" Mavic Pro</h4>
+								<span>¥6499</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/mavic-2-fly-more-kit">
+								<img src="https://product3.djicdn.com/uploads/spu/covers/30939/small_65184e3b-5caa-4434-879b-87f884abedee%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Mavic 2 全能配件包</h4>
+								<span>¥2399</span>
+								<s>¥3272</s>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/mavic-2-intelligent-flight-battery">
+								<img src="https://product3.djicdn.com/uploads/spu/covers/30940/small_571a44a1-4e86-46f2-915d-12305c6c8dd2%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Mavic 2 智能飞行电池</h4>
+								<span>¥899</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/mavic-2-low-noise-propellers">
+								<img src="https://product3.djicdn.com/uploads/spu/covers/30946/small_de4362b1-76f4-40d5-bf8e-3bcb76e24c0b%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Mavic 2 降噪螺旋桨</h4>
+								<span>¥79</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/mavic-air-intelligent-flight-battery">
+								<img src="https://product1.djicdn.com/uploads/spu/covers/30639/small_fe77fece-594e-4e27-b61d-b6228a3c1815%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Mavic Air 智能飞行电池</h4>
+								<span>¥479</span>
+							</a>
+						</li>
+					</ul>	
+				</div>
+			</div>
+			
+			<div class="main-z margin">
+				<h2>
+					"晓"Spark
+					<a href="/cn/shop/spark-series">更多></a>
+				</h2>
+				<div id="main-t">
+					<a href="https://store.dji.com/cn/product/spark-series">
+						<img src="https://product3.djicdn.com/uploads/sku/covers/30424/small_1273bf75-0dfe-4383-a4e5-4d88e1b05da6%402x.png"/>
+						<div>
+							<h4>"晓" Spark</h4>
+							<p>掌上起落，手势控制，一键短片，手掌大小的“晓” Spark，让你尽享飞行乐趣。</p>
+							<span>¥3199</span>
+						</div>
+					</a>
+					<img src="../images/Spark.png" style="width: 600px;height: 400px;"/>
+				</div>
+				<div id="main-b">
+					<ul>
+						<li>
+							<a href="https://store.dji.com/cn/product/spark-remote-controller">
+								<img src="https://product2.djicdn.com/uploads/sku/covers/30436/small_fb253b0a-fe3d-4ddf-9ac9-bc0c0c1cc78e%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Spark 遥控器</h4>
+								<span>¥699</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/spark-intelligent-flight-battery">
+								<img src="https://product3.djicdn.com/uploads/sku/covers/30431/small_b2a51a4b-60bd-491c-9b89-3211d6ee9d22%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Spark 智能飞行电池</h4>
+								<span>¥299</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/spark-quick-release-folding-propellers">
+								<img src="https://product3.djicdn.com/uploads/sku/covers/30434/small_0a3425b6-c741-4ab0-bd6e-a492d1f36f91%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Spark 快拆折叠螺旋桨</h4>
+								<span>¥49</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/spark-propeller-guard">
+								<img src="https://product2.djicdn.com/uploads/sku/covers/30435/small_a0a65e02-e071-4d43-902a-1ee74279c016%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Spark 桨叶保护罩</h4>
+								<span>¥99</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/spark-battery-charging-hub">
+								<img src="https://product2.djicdn.com/uploads/sku/covers/30433/small_1b744ae0-8ef5-49e9-9fca-9fb15596b339%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Spark 电池管家</h4>
+								<span>¥399</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/spark-storage-box-carrying-bag">
+								<img src="https://product4.djicdn.com/uploads/sku/covers/30554/small_4ac51f11-aba5-49dd-8f90-625d9a61073f%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Spark 便携包</h4>
+								<span>¥79</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/pgytech-spark-hand-guards">
+								<img src="https://product4.djicdn.com/uploads/sku/covers/30570/small_a786a200-4843-4f7e-a3e6-eb132015b800%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>PGYTECH Spark 护手器</h4>
+								<span>¥45</span>
+								<s>¥59</s>
+							</a>
+						</li>
+						<li class="te">
+							<a href="https://store.dji.com/cn/product/dji-battery-safe-bag">
+								<img src="https://product3.djicdn.com/uploads/sku/covers/30552/small_acf2d726-1216-4753-beb5-07a3fd4ba524%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>DJI 电池安全袋</h4>
+								<span>¥59</span>
+							</a>
+						</li>
+					</ul>	
+				</div>
+			</div>
+			
+			<div class="main-z margin">
+				<h2>
+					"精灵"Phantom
+					<a href="/cn/shop/ohantom-series">更多></a>
+				</h2>
+				<div id="main-t">
+					<a href="https://store.dji.com/cn/product/phantom-4-pro-v2">
+						<img src="https://product1.djicdn.com/uploads/sku/covers/31239/small_9bd59f59-93c5-4186-a4b8-a1bffbdb5208%402x.png"/>
+						<div>
+							<h4>精灵 Phantom 4 Pro V2.0</h4>
+							<p>搭载1英寸 2000万像素Exmor R CMOS传感器，更长的续航，更智能的操控。</p>
+							<span>¥9999</span>
+						</div>
+					</a>
+					<img src="../images/Phantom.png" style="width: 600px;height: 400px;"/>
+				</div>
+				<div id="main-b">
+					<ul>
+						<li>
+							<a href="https://store.dji.com/cn/product/phantom-4-advanced">
+								<img src="https://product3.djicdn.com/uploads/sku/covers/30330/small_eb3ccbf4-ed32-4b5e-8298-d38230da9b0c%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>精灵 Phantom 4 Advanced</h4>
+								<span>¥7999</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/phantom-4-pro-intelligent-battery-high-capacity">
+								<img src="https://product3.djicdn.com/uploads/sku/covers/30086/small_55d1d607-36cb-45db-820f-003e172b6cf7%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Phantom 4 系列智能飞行电池</h4>
+								<span>¥999</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/phantom-4-series-low-noise-propellers">
+								<img src="https://product2.djicdn.com/uploads/spu/covers/30882/small_e8fed20a-5778-460f-ade5-88ec46191eb3%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Phantom 4 系列降噪螺旋桨</h4>
+								<span>¥59</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/inspire1-phantom-3-remote-controller-monitor-hood-tablets">
+								<img src="https://product2.djicdn.com/uploads/sku/covers/841/small_cc%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>遥控器遮光罩平板版</h4>
+								<span>¥79</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/phantom-3-intelligent-flight-battery">
+								<img src="https://product3.djicdn.com/uploads/sku/covers/196/small_8362a5dd-6cc7-486f-8609-d7927a7058b5%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Phantom 3 智能飞行电池</h4>
+								<span>¥849</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/multifunctional-backpack-for-phantom-series">
+								<img src="https://product4.djicdn.com/uploads/sku/covers/4401/small_phantom_4_____-cover2%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Phantom 系列多功能背包</h4>
+								<span>¥1199</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/phantom-4-car-charger-kit">
+								<img src="https://product4.djicdn.com/uploads/sku/covers/5671/small_phantom_4__-cover2_%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Phantom 4 系列车载充电器</h4>
+								<span>¥420</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/phantom-4-pro-nd8-filter">
+								<img src="https://product2.djicdn.com/uploads/sku/covers/30091/small_c1905d21-899d-41db-a762-b802ab105869%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Phantom 4 Pro/Adv ND8减光镜</h4>
+								<span>¥159</span>
+							</a>
+						</li>
+					</ul>	
+				</div>
+			</div>
+			
+			<div class="main-z margin">
+				<h2>
+					"灵眸"Osmo
+					<a href="/cn/shop/omso-series">更多></a>
+				</h2>
+				<div id="main-t">
+					<a href="https://store.dji.com/cn/product/osmo-pocket">
+						<img src="https://product2.djicdn.com/uploads/sku/covers/31505/small_0b5b9d27-716b-47c2-8a93-fcd6e080e01d%402x.png"/>
+						<div>
+							<h4>灵眸 Osmo 口袋云台相机</h4>
+							<p>轻巧，便携，智能且配备独立屏幕，轻松拍摄，记录生活从此变得简单又好玩。</p>
+							<span>¥2499</span>
+						</div>
+					</a>
+					<img src="../images/Omso.png" style="width: 600px;height: 400px;"/>
+				</div>
+				<div id="main-b">
+					<ul>
+						<li class="te">
+							<a href="https://store.dji.com/cn/product/osmo-mobile-2">
+								<img src="https://product4.djicdn.com/uploads/sku/covers/31050/small_dba9dc08-ae6b-4179-9dc0-53bb1c562e59%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>灵眸 Osmo 手机云台 2</h4>
+								<span>¥899</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/osmo-mobile-2-base">
+								<img src="https://product1.djicdn.com/uploads/sku/covers/31051/small_aaa20b96-299a-44ec-9dbd-fa068544d25e%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>将 Osmo Mobile 2 平稳放置在平面</h4>
+								<span>¥69</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/osmo-base">
+								<img src="https://product4.djicdn.com/uploads/sku/covers/4061/small_c%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Osmo 底座</h4>
+								<span>¥69</span>
+							</a>
+						</li>
+						<li class="te">
+							<a href="https://store.dji.com/cn/product/osmo-battery-checker">
+								<img src="https://product2.djicdn.com/uploads/sku/covers/6991/small_Osmo_-_Battery_Checker_cover%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Osmo 电量查看器</h4>
+								<span>¥69</span>
+							</a>
+						</li>
+					</ul>	
+				</div>
+			</div>
+			
+			<div class="main-z margin">
+				<h2>
+					"悟"Inspire
+					<a href="/cn/shop/inspire-series">更多></a>
+				</h2>
+				<div id="main-t">
+					<a href="https://store.dji.com/cn/product/inspire-2">
+						<img src="https://product4.djicdn.com/uploads/sku/covers/30064/small_275cd727-41ae-4a46-af32-a1d9274cd9ce%402x.png"/>
+						<div>
+							<h4>"悟" Inspire 2</h4>
+							<p>出色的成像质量、强悍的飞行能力以及智能操控体验，为专业影视制作而生。</p>
+							<span>¥9888</span>
+						</div>
+					</a>
+					<img src="../images/Inspire2.png" style="width: 600px;height: 400px;"/>
+				</div>
+				<div id="main-b">
+					<ul>
+						<li>
+							<a href="https://store.dji.com/cn/product/inspire-1-raw">
+								<img src="https://product4.djicdn.com/uploads/sku/covers/3351/small_inspire-1-raw_3x%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>"悟" Inspire 1 RAW (双控版)</h4>
+								<span>¥28999</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/zenmuse-x7-lens-excluded">
+								<img src="https://product3.djicdn.com/uploads/spu/covers/30459/small_75b3afb9-0ff1-483d-9ba7-bbca61c79e4e%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>禅思 Zenmuse X7</h4>
+								<span>¥16999</span>
+							</a>
+						</li>
+						<li class="te">
+							<a href="https://store.dji.com/cn/product/zenmuse-x7-dl-dl-s-lens-set-spu">
+								<img src="https://product1.djicdn.com/uploads/spu/covers/31148/small_e76cd84c-027e-45c4-b027-d6b2767c8b21%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Zenmuse X7 DL/DL-S 镜头套装</h4>
+								<span>¥26999</span>
+								<s>¥32996</s>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/inspire-2-intelligent-flight-battery">
+								<img src="https://product4.djicdn.com/uploads/sku/covers/30072/small_13495e4f-c923-4b00-b3d7-bfff9a046f49%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>"悟" Inspire 2/Ronin 2 TB50 智能飞行电池</h4>
+								<span>¥999</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/inspire-2-1550t-quick-release-propellers">
+								<img src="https://product4.djicdn.com/uploads/sku/covers/30073/small_5ac2f0a0-a440-46eb-9527-862b4fe66175%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>"悟" Inspire 2 快拆桨</h4>
+								<span>¥99</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/inspire1-phantom-3-remote-controller-monitor-hood-tablets">
+								<img src="https://product2.djicdn.com/uploads/sku/covers/841/small_cc%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>遥控器遮光罩平板版</h4>
+								<span>¥79</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/focus-remote-controller">
+								<img src="https://product4.djicdn.com/uploads/sku/covers/3091/small_DJI_Focus_Remote_controller%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>DJI无线跟焦器遥控器</h4>
+								<span>¥4399</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/inspire-2-car-charger">
+								<img src="https://product1.djicdn.com/uploads/sku/covers/30313/small_6877061a-d2dc-48e1-b82c-6186e130c486%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>"悟" Inspire 2 车载充电器</h4>
+								<span>¥699</span>
+							</a>
+						</li>
+					</ul>	
+				</div>
+			</div>
+			
+			<div class="main-z margin">
+				<h2>
+					"如影"Ronin
+					<a href="/cn/shop/handheld-gimbals">更多></a>
+				</h2>
+				<div id="main-t">
+					<a href="https://store.dji.com/cn/product/ronin-s">
+						<img src="https://product1.djicdn.com/uploads/sku/covers/31258/small_af9dcf37-dc3f-4e93-94ee-02bb9c4c5d62%402x.png"/>
+						<div>
+							<h4>如影 Ronin-S</h4>
+							<p>专为单反和微单打造，多场景便携操作，控制精准并且能实时跟焦，单人也能完成专业拍摄。</p>
+							<span>¥4399</span>
+						</div>
+					</a>
+					<img src="../images/Ronin-S.png" style="width: 600px;height: 400px;"/>
+				</div>
+				<div id="main-b">
+					<ul>
+						<li>
+							<a href="https://store.dji.com/cn/product/ronin-2-professional-combo">
+								<img src="https://product4.djicdn.com/uploads/spu/covers/30374/small_855c772d-aa99-46ee-a18c-4f4d2500a325%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>如影 Ronin 2专业套装</h4>
+								<span>¥46999</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/ronin-2-basic-combo">
+								<img src="https://product1.djicdn.com/uploads/sku/covers/30888/small_5a3ace5f-626d-4346-a0c0-c5a0e56a0131%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>如影 Ronin 2 手持套装</h4>
+								<span>¥32999</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/ronin-mx">
+								<img src="https://product1.djicdn.com/uploads/sku/covers/6001/small_ronin-mx_3x%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>如影 Ronin-MX</h4>
+								<span>¥8699</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/ronin-m">
+								<img src="https://product1.djicdn.com/uploads/sku/covers/224/small_ronin-m_3x%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>M如影 Ronin-M</h4>
+								<span>¥5299</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/ronin-m-focus">
+								<img src="https://product3.djicdn.com/uploads/bundle/covers/2261/small_bbbbbbbb%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>如影 Ronin-M + DJI 无线跟焦器</h4>
+								<span>¥12998</span>
+								<s>¥15998</s>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/ronin-2-tb50-intelligent-battery">
+								<img src="https://product1.djicdn.com/uploads/sku/covers/30921/small_30a8b9b6-5028-4067-ae62-a55d6dca527d%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>Ronin 2/Inspire 2 TB50智能电池（4280mAh）</h4>
+								<span>¥999</span>
+							</a>
+						</li>
+						<li class="te">
+							<a href="https://store.dji.com/cn/product/inspire-2-battery-station">
+								<img src="https://product2.djicdn.com/uploads/spu/covers/30587/small_986008de-cd96-4cf7-bb40-bd67e63dec55%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>DJI 电池管理站</h4>
+								<span>¥7699</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://store.dji.com/cn/product/focus">
+								<img src="https://product1.djicdn.com/uploads/sku/covers/1701/small_cc%402x.png" />
+								<img src="//product1.djicdn.com/uploads/spu/hovers/30010/ee534596-7e9f-47ca-8488-ae382a88bae9.jpg" />
+								<p>你口袋里的航拍摄影师</p>
+								<h4>DJI 无线跟焦器</h4>
+								<span>¥8999</span>
+							</a>
+						</li>
+					</ul>	
+				</div>
+			</div>
+			
+			<div class="main-z margin">
+				<h2>
+					增值服务
+					<a href="/cn/shop/service">更多></a>
+				</h2>
+				<div id="main-b" style="padding-top: 0;">
+					<ul>
+						<li class="te">
+							<a href="https://store.dji.com/cn/product/osmo-shield-osmo-pocket">
+								<img src="https://product1.djicdn.com/uploads/sku/covers/31506/small_a5873beb-f696-47aa-a495-d73b9cdabe76%402x.png" />
+								<h4>OSMO Shield (Osmo Pocket)</h4>
+								<span>¥199</span>
+							</a>
+						</li>
+						<li class="te">
+							<a href="https://store.dji.com/cn/product/dji-care-refresh-mavic-2">
+								<img src="https://product2.djicdn.com/uploads/sku/covers/31301/small_ccf8be15-eec7-4b11-b5e1-e83dca9b74ab%402x.png" />
+								<h4>DJI Care 随心换（Mavic 2）</h4>
+								<span>¥899</span>
+							</a>
+						</li>
+						<li class="te">
+							<a href="https://store.dji.com/cn/product/dji-care-refresh-mavic-air">
+								<img src="https://product3.djicdn.com/uploads/sku/covers/31026/small_ebf5b3ff-0f4a-4dac-b509-2030229f3028%402x.png" />
+								<h4>DJI Care 随心换（Mavic Air）</h4>
+								<span>¥499</span>
+							</a>
+						</li>
+						<li class="te">
+							<a href="https://store.dji.com/cn/product/dji-care-refresh-spark">
+								<img src="https://product3.djicdn.com/uploads/sku/covers/30432/small_334cfb78-5641-4f63-8986-9be91ab131fb%402x.png" />
+								<h4>DJI Care 随心换（Spark）</h4>
+								<span>¥399</span>
+							</a>
+						</li>
+					</ul>	
+				</div>
+			</div>
+		
+		</main>
+		
+		<footer>
+			<div id="footer-t">
+				<ul class="margin">
+					<li>
+						<img src="https://stormsend1.djicdn.com/stormsend/uploads/794e0300-98af-0136-ac4e-1237445f15bc/truck-moving.svg" />
+						<h4>全场满¥99顺丰包邮（顺丰无法配送的区域将使用EMS）</h4>
+					</li>
+					<li>
+						<img src="https://stormsend1.djicdn.com/stormsend/uploads/7bab98b0-98af-0136-ac4f-1237445f15bc/credit-card.svg" />
+						<h4>支持支付宝、微信、银联、顺丰到付、花呗和招行分期</h4>
+					</li>
+					<li>
+						<img src="https://stormsend1.djicdn.com/stormsend/uploads/7d9fa690-98af-0136-ac50-1237445f15bc/comment-alt-smile.svg" />
+						<h4>客服热线：400-700-0303</h4>
+					</li>
+					<li>
+						<a href="#" target="_blank"></a>
+						<img src="https://ssif1.globalsign.com/SiteSeal/siteSeal/siteSeal/siteSealImage.do?p1=store.dji.com&p2=SZ110-45&p3=image&p4=en&p5=V0022&p6=S001&p7=https&deterDn=" />
+					</li>
+				</ul>
+			</div>
+			<div id="footer-m" class="margin">
+				<ul>
+					<li>
+						
+					</li>
+					<li>
+						
+					</li>
+					<li>
+						
+					</li>
+					<li>
+						
+					</li>
+					<li>
+						<dt>订阅</dt>
+						<div>第一时间了解我们的促销活动、热销产品和最新信息。</div>
+						<input type="email" placeholder="请输入您的邮箱">
+						<button disabled="">></button>
+					</li>
+				</ul>
+			</div>
+			<div id="footer-b" class="margin">
+				<div id="footer-b-t">
+					<ul>
+						<li>
+							<a href="https://www.dji.com">
+								<img src="https://stormsend1.djicdn.com/stormsend/uploads/d0425c20-9482-0136-3d9f-12528100fbe3/logo.svg" />
+							</a>
+						</li>
+						<li><a target="_blank" href="https://www.dji.com/company?from=footer">关于我们</a>
+						</li>
+						<li><a target="_blank" href="https://www.dji.com/cn/contact?from=footer">联系我们</a>
+						</li>
+						<li><a target="_blank" href="https://we.dji.com/zh-CN/?from=footer">招聘精英</a>
+						</li>
+						<li><a target="_blank" href="https://www.dji.com/where-to-buy/flagship?from=footer">官方旗舰店</a>
+						</li>
+					</ul>
+					<div>
+						<a href="https://i.youku.com/u/UMzE0NDQxMzE2">
+							<img src="https://stormsend1.djicdn.com/stormsend/uploads/3ac6cb50-93f6-0136-3d9c-12528100fbe3/youku.svg" />
+						</a>
+						<a href="https://weibo.com/DJIChina">
+							<img src="https://stormsend1.djicdn.com/stormsend/uploads/4e173770-93f6-0136-3d9d-12528100fbe3/weibo.svg" />
+						</a>
+						<a href="#">
+							<img src="//stormsend1.djicdn.com/stormsend/uploads/653a6e70-93f6-0136-dade-12530322f90d/weixin.svg" />
+						</a>
+					</div>
+				</div>
+				<div id="footer-b-b">
+						<span>Copyright © 2018 DJI 大疆创新 版权所有</span>
+						<div>
+							<a target="_blank" href="https://www.dji.com/policy?from=footer">隐私权政策</a>
+							<i></i>
+							<a target="_blank" href="https://www.dji.com/terms?from=footer">使用条款</a>
+							<i></i>
+							<a target="_blank" href="https://www.dji.com/sitemap?from=footer">网站地图</a>
+						</div>
+						<p>网站问题反馈？
+							<a href="https://www.dji.com/feedback?from=footer" target="_blank">点击这里</a>
+						</p>
+				</div>
+			</div>
+		</footer>
+		
+		
+		<div id="top">
+			<i class="iconfont icon-huidaodingbu"></i>
+		</div>
+		<div id="service">
+			<i class="iconfont icon-lianxikefu"></i>
+		</div>
+	</body>
 </html>

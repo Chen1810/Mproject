@@ -5,42 +5,44 @@ let babel = require("gulp-babel"); //ES6的编译模块
 let cleancss = require("gulp-clean-css");
 let webserver = require("gulp-webserver");
 let sass = require("gulp-sass"); //编译SCSS到CSS
+let imagemin = require("gulp-imagemin");
 
-gulp.task("buildJS", ()=>{
+gulp.task("buildJS",()=>{
 	//只复制
 	gulp.src("./src/scripts/libs/*.js")
-		.pipe( gulp.dest("./dist/scripts/libs") )
-	
-	//编译压缩复制
+		.pipe( gulp.dest("./dist/scripts/libs") )	
+	//编译压缩复制 有点问题
 	gulp.src("./src/scripts/*.js")
 		.pipe(babel({
             presets: ['env']
         }))
 		.pipe( uglify() )
-		.pipe( gulp.dest("./dist/scripts") );
+		.pipe( gulp.dest("./dist/scripts") )
 })
 
 gulp.task("buildCSS", ()=>{
-	
-	gulp.src("./src/**/*.scss")
+	gulp.src("./src/styles/*.scss")
 		// .pipe(cleancss())
+		.pipe(sass().on('error',sass.logError))
 		.pipe(sass())
-		.pipe( gulp.dest("./dist") )
-	
+		.pipe( gulp.dest("./dist/styles") )
+	gulp.src("./src/css/*.css").pipe(cleancss()).pipe(gulp.dest("./dist/css"))
 })
 
 gulp.task("buildHTML", ()=>{
-	gulp.src("./src/**/*.html").pipe( gulp.dest("./dist") );
+	gulp.src("./src/pages/*.*").pipe( gulp.dest("./dist/pages") );
 })
 
 gulp.task("buildStaticResource", ()=>{
-	gulp.src("./src/static/**/*.*").pipe( gulp.dest("./dist") );
+	gulp.src("./src/static/fonts/*.*").pipe( gulp.dest("./dist/static/fonts") );
+	gulp.src("./src/images/*.*").pipe( imagemin() ).pipe( gulp.dest("./dist/images") );
+	gulp.src("./src/static/jsonp/*.*").pipe( gulp.dest("./dist/static/jsonp") );
 })
 
 gulp.task("watching", ()=>{
 	gulp.watch("./src/**/*.scss", ["buildCSS"]);
 	gulp.watch("./src/**/*.js", ["buildJS"]);
-	gulp.watch("./src/**/*.html", ["buildHTML"]);
+	gulp.watch("./src/pages/*.*", ["buildHTML"]);
 });
 
 const webpack = require("webpack-stream");
@@ -83,7 +85,7 @@ gulp.task('webserver', ["watching"], function() {
 			proxies : [
 				{	
 					source: '/abcdefg', 
-					target: 'https://m.lagou.com/listmore.json',
+					target: 'https://m.lagou.com/listmore.json'
 				},
 				{
 					source: '/userinfo',
