@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    #box {
+      width: 100px;
+      height: 100px;
+      background: red;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  </style>
+
+  <script>
+    //PC端
+    /* window.onload = function () {
+      var oBox = document.getElementById('box');
+
+      oBox.onmousedown = function (ev) {
+        var disX = ev.clientX - this.offsetLeft;
+        var disY = ev.clientY - this.offsetTop;
+        document.onmousemove = function (ev) {
+          oBox.style.left = ev.clientX - disX + 'px';
+          oBox.style.top = ev.clientY - disY + 'px';
+        }
+        document.onmouseup = function () {
+          document.onmousemove = document.onmouseup = null;
+        }
+        return false;
+      }
+    } */
+    //移动端
+    document.addEventListener('DOMContentLoaded',function(ev){
+      //添加事件监听器 DOMContentLoaded 相当于window.onload
+      var oBox = document.querySelector('#box');
+      //手指触碰事件
+      document.addEventListener('touchstart',function(ev){
+        return false;
+        //ev.returnValue = false;
+        //ev.preventDefault();
+      },false)
+      
+      oBox.addEventListener('touchstart',function(ev){
+        console.log('touchstart',ev);
+        //ev.targetTouches[0] 第一根手指
+        var disX = ev.targetTouches[0].clientX - this.offsetLeft;
+        var disY = ev.targetTouches[0].clientY - this.offsetTop;
+        document.addEventListener('touchmove',moveFn,false);
+        function moveFn(ev){
+          oBox.style.left = ev.targetTouches[0].clientX - disX + 'px';
+          oBox.style.top = ev.targetTouches[0].clientY - disY + 'px';
+        }
+        document.addEventListener('touchend',endFn,false);
+        function endFn(){
+          document.removeEventListener('touchmove',moveFn)
+          document.removeEventListener('touchend',endFn)
+        }
+
+        //ev.preventDefault();
+
+      },false);
+    },false);
+
+  </script>
+</head>
+
+<body>
+
+  <div id="box">box</div>
+
+</body>
+
+</html>
